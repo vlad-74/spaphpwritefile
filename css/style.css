@@ -1,0 +1,88 @@
+@import url("reset.css");
+@import url("../font-awesome/css/font-awesome.min.css");
+@import url("../component/socilIcons/socilIcons.css");
+@import url("../component/flags/flagIco.css");
+@import url("../component/flags/flag.css");
+@import url("../component/menuTopLeft/menu.css");
+@import url("../component/menuTopLeft/leftMenu.css");
+@import url("media.css");
+
+html{
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: url(../img/wall.jpg);
+	min-width: 350px;
+  max-width: 1380px;
+  margin: 0;
+  color: lightblue;
+}
+
+.main{
+/*background: #fff;*/ 
+}
+.bl{
+  /*background: #fffde1; */
+  overflow:hidden;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  /*display: -webkit-box;*/
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;  
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap; 
+  /*flex-flow: row wrap; 2 свойства - flex-direction и flex-wrap*/
+  /*flex-direction направление главной оси (располагаются флекс элементы внутри контейнера)
+  flex-direction - row()|row-reverse|column|column-reverse|initial|inherit";*/
+  /*flex-wrap определяет, будет ли флекс контейнер однострочным или многострочным
+  flex-wrap:"nowrap|wrap|wrap-reverse|initial|inherit";*/
+
+  align-content: stretch; /*как браузер распределяет пространство между и вокруг флекс элементов вдоль поперечной оси контейнера (вертикально)
+  stretch | flex-start | flex-end | center | space-between | space-around | initial | inherit;*/
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; /*выравнивание элементов вдоль главной оси- flex-start|lex-end|center|space-between|space-around;*/
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch; /*выравнивание элементов вдоль поперечной оси- flex-start|flex-end|center|baseline|stretch;*/
+}
+
+/*.bl{flex: 1 1 100%; -webkit-flex: 1 1 100%;-ms-flex: 1 1 100%;}*/ /*flex - позволяют определить размер для флекс элемента*/
+/*flex-grow указывает, на сколько элемент может увеличится по отношению к остальным флекс элементам в одном контейнере
+flex-grow:"number | initial | inherit";*/
+/*flex-shrink определяет, как элемент будет сжиматься относительно остальных флекс элементов в контейнере (при недостатке свободного пространства)
+flex-shrink:"number | initial | inherit";*/
+/*flex-basis определяет размер для флекс элемента, установленный по умолчанию перед распределением пространства в контейнере.
+flex-basis:"auto|width|initial|inherit";*/
+
+/*height - для Safari, flex-basis НЕ РАБОТАЕТ в Safari!!!!*/
+.fl1{height:6%;/*background:7cd2dd; border-color:#6fbac4; */min-height: 50px;order: 1; flex-basis: 6%;}
+.fl2{height:3%;/*background:#d051d0; border-color:#ba48ba; */order: 2; text-align: center; flex-basis: 3%;}
+.fl3{height:89%;/*background:#eb9e65; border-color:#cc8a58; */order: 3; text-align: center; flex-basis: 89%;}
+.fl4{height:2%;/*background:#d051d0; border-color:#ba48ba; */min-height: 20px;order: 4; text-align: center; flex-basis: 2%;}
+
+#loader{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-12%;
+    margin-top:-10%;
+}
+  #loader .fa-spinner{
+    font-size: 200px;
+  }
+    #loader span{
+      margin-left:30%;
+      margin-top:-33%;
+      float:left;
+  }

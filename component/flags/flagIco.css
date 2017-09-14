@@ -1,0 +1,162 @@
+/*===============================================*/
+
+.language-dropdown .lang-en .flag {
+	background-image: url("../../img/flag/min/en.ico");
+}
+.language-dropdown .lang-en .flag::after {
+	content: "English";
+}
+
+.language-dropdown .lang-zh .flag {
+	background-image: url("../../img/flag/min/chin.ico");
+}
+.language-dropdown .lang-zh .flag::after {
+	content: "中國";
+}
+
+.language-dropdown .lang-fr .flag {
+	background-image: url("../../img/flag/min/franc.ico");
+}
+.language-dropdown .lang-fr .flag::after {
+	content: "Français";
+}
+
+.language-dropdown .lang-de .flag {
+	background-image: url("../../img/flag/min/germ.ico");
+}
+.language-dropdown .lang-de .flag::after {
+	content: "Deutsch";
+}
+
+.language-dropdown .lang-ja .flag {
+	background-image: url("../../img/flag/min/jap.ico");
+}
+.language-dropdown .lang-ja .flag::after {
+	content: "日本語";
+}
+
+.language-dropdown .lang-pr .flag {
+	background-image: url("../../img/flag/min/port.ico");
+}
+.language-dropdown .lang-pr .flag::after {
+	content: "Português";
+}
+
+.language-dropdown .lang-ru .flag {
+	background-image: url("../../img/flag/min/russ.ico");
+}
+.language-dropdown .lang-ru .flag::after {
+	content: "Русский";
+}
+
+.language-dropdown .lang-ar .flag {
+	background-image: url("../../img/flag/min/sa.ico");
+}
+.language-dropdown .lang-ar .flag::after {
+	content: "العربية";
+}
+
+.language-dropdown .lang-es .flag {
+	background-image: url("../../img/flag/min/spain.ico");
+}
+.language-dropdown .lang-es .flag::after {
+	content: "Español";
+}
+
+.language-dropdown .lang-tr .flag {
+	background-image: url("../../img/flag/min/turk.ico");
+}
+.language-dropdown .lang-tr .flag::after {
+	content: "Türk";
+}
+
+.language-dropdown .lang-cs .flag {
+	background-image: url("../../img/flag/min/czech.ico");
+}
+.language-dropdown .lang-cs .flag::after {
+	content: "Česky";
+}
+
+.language-dropdown .lang-hi .flag {
+	background-image: url("../../img/flag/min/ind.ico");
+}
+.language-dropdown .lang-hi .flag::after {
+	content: "हिन्दी";
+}
+
+.language-dropdown .lang-id .flag {
+	background-image: url("../../img/flag/min/indonesia.ico");
+}
+.language-dropdown .lang-id .flag::after {
+	content: "Indonesia";
+}
+
+.language-dropdown .lang-ji .flag {
+	background-image: url("../../img/flag/min/isr.ico");
+}
+.language-dropdown .lang-ji .flag::after {
+	content: "עברית";
+}
+
+.language-dropdown .lang-it .flag {
+	background-image: url("../../img/flag/min/ital.ico");
+}
+.language-dropdown .lang-it .flag::after {
+	content: "Italiano";
+}
+
+.language-dropdown .lang-ko .flag {
+	background-image: url("../../img/flag/min/korea.ico");
+}
+.language-dropdown .lang-ko .flag::after {
+	content: "한국어";
+}
+
+.language-dropdown .lang-pl .flag {
+	background-image: url("../../img/flag/min/pol.ico");
+}
+.language-dropdown .lang-pl .flag::after {
+	content: "Polski";
+}
+
+.language-dropdown .lang-sr .flag {
+	background-image: url("../../img/flag/min/serb.ico");
+}
+.language-dropdown .lang-sr .flag::after {
+	content: "Српски";
+}
+
+.language-dropdown .lang-te .flag {
+	background-image: url("../../img/flag/min/thai.ico");
+}
+.language-dropdown .lang-te .flag::after {
+	content: "ไทย";
+}
+
+.language-dropdown .lang-el .flag {
+	background-image: url("../../img/flag/min/gre.ico");
+}
+.language-dropdown .lang-el .flag::after {
+	content: "Ελληνικά";
+}
+
+.language-dropdown .lang-fi .flag {
+	background-image: url("../../img/flag/min/fin.ico");
+}
+.language-dropdown .lang-fi .flag::after {
+	content: "Suomi";
+}
+
+.language-dropdown .lang-fa .flag {
+	background-image: url("../../img/flag/min/iran.ico");
+}
+.language-dropdown .lang-fa .flag::after {
+	content: "فارسی";
+}
+
+.language-dropdown .lang-nl .flag {
+	background-image: url("../../img/flag/min/nl.ico");
+}
+.language-dropdown .lang-nl .flag::after {
+	content: "Nederlands";
+}

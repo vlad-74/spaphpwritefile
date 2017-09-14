@@ -1,0 +1,125 @@
+/*!!!!!!ПРИ РАЗЛИЧИЯХ У CHROMA & SAFARI!!!!!*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    /* Safari and Chrome */
+		#lang_selector{
+			float: left;
+		    margin: 9px 0 0 0;
+		  	cursor: pointer;
+		  	z-index: 98;
+		} 
+
+    /* Safari only override */
+    ::i-block-chrome,#lang_selector{
+		 /*   margin: -45px 18% 0 10px;*/
+		} 
+}
+
+	/* firefox only override */
+	@-moz-document url-prefix("") {
+		#lang_selector{
+			position: absolute;
+			margin: 9px 0px 0px 70px;
+		}
+
+		#divSi{
+			margin: 2px 30px 2px 1px;
+		}
+	}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #lang_selector{
+        position: absolute;
+		margin: 9px 0px 0px 70px;
+    }
+}
+
+.language-dropdown .flag::after {
+	line-height: 30px;
+	margin: 47px;
+	color: yellow;
+	font-size: 22px;
+	z-index: 99;
+	white-space: nowrap;
+}
+
+.language-dropdown label, .language-dropdown ul li {
+	display: block;
+	width: 50px;
+	/*height: 35px;*/
+	line-height: 35px;
+	cursor: pointer;
+}
+
+.language-dropdown ul.lang-list {
+	position: relative;
+	display:none;
+	z-index: 100;
+}
+
+.language-dropdown ul.lang-list li:last-child {
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+.language-dropdown ul.lang-list li.selected {
+	display: none;
+}
+
+.language-dropdown label {
+	position: relative;
+	/*border-bottom: 1px solid #ECECEC;*/
+	border-radius: 3px;
+	z-index: 102;
+}
+
+.language-dropdown .lang-flag .flag, .language-dropdown .lang-list .lang .flag {
+	float: left;
+	width: 100%;
+	height: 100%;
+	margin: 0px 0;
+	cursor: pointer;
+	background-size: 35px 35px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.language-dropdown.open ul.lang-list {
+	visibility: visible;
+	opacity: 1;
+}
+
+.language-dropdown.open label {
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.animate, .lang-flag, .lang-list {
+	cursor: pointer;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-ms-transition: all .5s;
+	transition: all .5s;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+}
+
+.lang-list{
+	padding: 0;
+	margin: 0;
+}
+
+.flag:hover:after{
+	background-color:Blue;
+	padding: 2px 4px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}
+
+.flag:hover{
+	padding: 1px;
+}

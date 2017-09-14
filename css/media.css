@@ -1,0 +1,86 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+	#blockMenu{right: 215px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 253px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 253px;}}/* IE only override */
+}
+
+@media (min-width: 1000px) and (max-width: 1099px) {
+	#blockMenu{right: 205px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 243px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 243px;}}/* IE only override */
+}
+
+@media (min-width: 900px) and (max-width: 999px) {
+	#blockMenu{right: 195px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 233px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 233px;}}/* IE only override */
+}
+
+@media (min-width: 800px) and (max-width: 899px) {
+	.sidenavUl{display: block;}
+	.topmenu{display: none;}
+	#blockMenu{right: 185px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 223px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 223px;}}/* IE only override */
+}
+
+@media (min-width: 700px) and (max-width: 799px) {
+	.sidenavUl{display: block;}
+	.topmenu{display: none;}
+	#blockMenu{right: 175px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 213px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 213px;}}/* IE only override */	
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+	.sidenavUl{display: block;}
+	.topmenu{display: none;}
+	#blockMenu{right: 165px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 203px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 203px;}}/* IE only override */
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+	.sidenavUl{display: block;}
+	.topmenu{display: none;}
+	#blockMenu{right: 155px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 193px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 193px;}}/* IE only override */	
+}
+
+@media (min-width: 400px) and (max-width: 499px) {
+	.sidenavUl{display: block;}
+	.topmenu{display: none;}
+	#blockMenu{right: 145px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 183px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 183px;}}/* IE only override */
+}
+
+@media (min-width: 300px) and (max-width: 399px) {
+	.sidenavUl{display: block;}
+	.topmenu{display: none;}
+	#blockMenu{right: 135px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 163px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 163px;}}/* IE only override */
+}
+
+@media (min-width: 200px) and (max-width: 299px) {
+	.sidenavUl{display: block;}
+	.topmenu{display: none;}
+	#blockMenu{right: 125px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 153px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 163px;}}/* IE only override */
+}
+
+@media (max-width: 199px) {
+	.sidenavUl{display: block;}
+	.topmenu{display: none;}
+	#blockMenu{right: 115px;}
+	@-moz-document url-prefix(""){#blockMenu{right: 143px;}}/* firefox only override */
+	@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {#blockMenu{right: 143px;}}/* IE only override */
+}

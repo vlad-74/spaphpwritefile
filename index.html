@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html manifest="myapp.appcache" lang="en">
+<!-- <html lang="en"> -->
+<head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SPA start</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="component/flags/dataFlags.js"></script>
+</head>
+
+<body>
+<div class="main">
+	<div class="bl fl1">
+		<!-- ========================================== СТАРТ МЕНЮ ==========================================-->
+		<ul id="menu-bar">
+			<li class="sidenavUl">
+				<a href="javascript:void(0)">
+					<span id="tglNav" onclick="tglNav()">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</span>
+				</a>
+			</li>
+			<li class="topmenu"><a href="#"><span class="home active">Главная</span></a></li>
+			<li class="topmenu"><a href="#"><span class="portfolio">Портфолио</span></a></li>
+			<li class="topmenu"><a href="#"><span class="about">О себе</span></a></li>
+		</ul>
+		<!-- ========================================== БОКОВОЕ МЕНЮ ==========================================-->
+		<div id="mySidenav" class="sidenav menu-bar">
+			<a href="javascript:void(0)"><span id="tglNav" class="closebtn" style="font-size:30px;cursor:pointer" onclick="tglNav()">X</span></a>
+			<a href="#"><span class="home active">Главная</span></a>
+			<a href="#"><span class="portfolio">Портфолио</span></a>
+			<a href="#"><span class="about">О себе</span></a>
+		</div>
+		<!-- ========================================== ФИНИШ МЕНЮ ==========================================-->
+		
+		<div id="blockMenu">
+			<!-- ================================= СТАРТ СОЦИАЛЬНЫЕ ИКОНКИ ======================================-->
+			<div id="divSi">
+				<div id="divGlbl" class="social-icons icon-zoom">
+					<a id="glbl" href="#"><i class="fa fa-globe" title="Click to select a social network"></i></a><br>
+				</div>
+				<div id="divSiBlock" class="social-icons icon-circle icon-rotate list-unstyled list-inline">
+					<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x inblck"></i></a><br>
+				 	<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-3x inblck"></i></a><br>
+				 	<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-3x inblck"></i></a><br>
+				 	<a href="https://vk.com/" target="_blank"><i class="fa fa-vk fa-3x inblck"></i></a><br>
+				 	<a href="https://odnoklassniki.com/" target="_blank"><i class="fa fa-odnoklassniki fa-3x inblck"></i></a><br>
+				 	<a id="curr" href="#" target="_blank"><i class="fa fa-globe fa-3x inblck"></i></a><br>
+				 </div>
+			</div>
+			<!--==================================== ФИНИШ СОЦИАЛЬНЫЕ ИКОНКИ ====================================-->
+
+			<!--======================================= СТАРТ ВЫБОР ЯЗЫКА ========================================-->
+			<div id="lang_selector" class="language-dropdown">
+			  <label for="toggle" class="lang-flag lang-ru" title="Click to select the language">
+			    <span id ="sf" class="flag"></span>
+			  </label>
+			  <ul class="lang-list">
+			    <li class="lang lang-ru selected" title="RU">
+			      <span class="flag"></span>
+			    </li>
+			   	<li class="lang lang-zh" title="CH">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-hi" title="IN">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-fa" title="IR">
+			      <span class="flag"></span>
+			    </li>
+			   	<li class="lang lang-ja" title="JP">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-ko" title="KO">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-id" title="IND">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-te" title="TH">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-tr" title="TU">
+			      <span class="flag"></span>
+			    </li>
+			   	<li class="lang lang-ar" title="SA">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-en" title="EN">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-fr" title="FR">
+			      <span class="flag"></span>
+			    </li>
+			   	<li class="lang lang-de" title="GE">
+			      <span class="flag"></span>
+			    </li>
+				<li class="lang lang-nl" title="NL">
+			      <span class="flag"></span>
+			    </li>
+			   	<li class="lang lang-es" title="SP">
+			      <span class="flag"></span>
+			    </li>
+			   	<li class="lang lang-pr" title="PO">
+			      <span class="flag"></span>
+			    </li>
+			   	<li class="lang lang-it" title="IT">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-el" title="GR">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-fi" title="FI">
+			      <span class="flag"></span>
+			    </li>
+			   	<li class="lang lang-ji" title="IS">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-cs" title="CZ">
+			      <span class="flag"></span>
+			    </li>
+			    <li class="lang lang-pl" title="POL">
+			      <span class="flag"></span>
+			    </li>
+			   	<li class="lang lang-sr " title="SE">
+			      <span class="flag"></span>
+			    </li>
+			   </ul>
+			</div>
+			<!--======================================= ФИНИШ ВЫБОР ЯЗЫКА ========================================-->
+		</div>
+	</div>
+
+	<div class="bl fl2">
+		<div id="tick"></div>
+	</div>
+	
+	<div class="bl fl3">
+		<!--====================================== СТАРТ ИНДИКАТОР ЗАГРУЗКИ ======================================-->
+		<div id="loader">
+			<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+			<span class="faSpinner">Loading...</span>
+		</div>
+		<div id="statusline">Update</div>
+		<!--====================================== ФИНИШ ИНДИКАТОР ЗАГРУЗКИ ======================================-->
+		<div style="clear: both "></div>
+
+		<div id="pageContent">
+			<p>Loading ....</p>
+		</div>
+	</div>
+	
+	<div class="bl fl4">
+		<b> <a href="mailto:vkfrontend@gmail.com" style="color:lightblue" title='click to contact the developer of the site'>VKFRONTEND</a></b>
+	</div>
+</div>
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>-->
+	<script src="https://cdn.jsdelivr.net/ramda/0.23.0/ramda.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/appcacheevents.js"></script>
+	<script src="component/menuTopLeft/menuActive.js"></script>
+	<script src="component/socilIcons/socIcons.js"></script>
+	<script src="component/flags/languageStorage.js"></script>
+	<script src="component/flags/readyFlags.js"></script>
+</body>
+</html>
